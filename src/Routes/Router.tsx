@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router";
+import Landing from "../pages/Landing/Landing";
 
 
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <div className="bg-red-600">Hello World</div>,
+    element: <Landing></Landing>
   },
 ]);
