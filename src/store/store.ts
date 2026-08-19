@@ -1,14 +1,16 @@
-import { configureStore, createSlice } from '@reduxjs/toolkit';
+import { configureStore, } from '@reduxjs/toolkit';
+import signupReducer from './signupSlice';
 
-const testSlice = createSlice({
-  name: 'test',
-  initialState: { message: 'Redux is working!' },
-  reducers: {},
-});
+
+// const testSlice = createSlice({
+//   name: 'test',
+//   initialState: { message: 'Redux is working!' },
+//   reducers: {},
+// });
 
 export const store = configureStore({
   reducer: {
-    test: testSlice.reducer,
+    test: signupReducer,
   },
 });
 
