@@ -10,7 +10,7 @@ import signupReducer from './signupSlice';
 
 export const store = configureStore({
   reducer: {
-    test: signupReducer,
+    signup: signupReducer,
   },
 });
 
