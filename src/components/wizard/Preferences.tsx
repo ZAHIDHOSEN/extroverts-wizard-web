@@ -7,7 +7,7 @@ import Button from '../ui/Button';
 
 const INTEREST_OPTIONS = ['Music', 'Dance', 'Gaming', 'Food', 'Movies', 'Sports', 'Art', 'Travel'];
 
-export default function Step4_Preferences() {
+export default function Preferences() {
   const dispatch = useAppDispatch();
   const { loading } = useAppSelector((state) => state.signup);
 

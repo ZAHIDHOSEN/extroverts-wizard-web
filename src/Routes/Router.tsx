@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import Landing from "../pages/Landing/Landing";
 import Terms from "../pages/Terms/Terms";
-import SignupWizaed from "../pages/Signup/SignupWizaed";
+import SignupWizard from "../pages/Signup/SignupWizard";
 
 
 
@@ -16,6 +16,6 @@ export const router = createBrowserRouter([
   },
   {
     path: "/signup",
-    element: <SignupWizaed></SignupWizaed>
+    element: <SignupWizard></SignupWizard>
   }
 ]);
